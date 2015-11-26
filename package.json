@@ -1,9 +1,16 @@
 {
   "name": "vue-format",
   "main": "./lib/vue-format",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Beautify .vue file, not suport stylus,less,scss",
-  "keywords": ["format", "vue.js", "nodejs", "atom", "package", "beautify"],
+  "keywords": [
+    "format",
+    "vue.js",
+    "nodejs",
+    "atom",
+    "package",
+    "beautify"
+  ],
   "activationCommands": {
     "atom-workspace": "vue-format:format"
   },
