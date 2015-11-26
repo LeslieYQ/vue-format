@@ -26,6 +26,7 @@ module.exports = VueFormat =
 
   format: (state) ->
     self = this
+    console.log atom
     editor = atom.workspace.getActiveTextEditor()
     text = editor.getText()
     newTextArr = []

@@ -3,7 +3,7 @@
   'atom-text-editor': [
     {
       'label': 'Toggle vue-format'
-      'command': 'vue-format:toggle'
+      'command': 'vue-format:format'
     }
   ]
 'menu': [
@@ -14,7 +14,7 @@
       'submenu': [
         {
           'label': 'Toggle'
-          'command': 'vue-format:toggle'
+          'command': 'vue-format:format'
         }
       ]
     ]

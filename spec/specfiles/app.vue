@@ -10,7 +10,9 @@ h1 {
 
 <template>
 
-<div><h1></h1></div>
+<div><h1>dasda</h1>
+<ul><li>{{item}}</li></ul>
+</div>
 
 </template>
 

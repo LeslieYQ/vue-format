@@ -1,14 +1,25 @@
 {
   "name": "vue-format",
   "main": "./lib/vue-format",
-  "version": "0.0.0",
-  "description": "A short description of your package",
-  "keywords": [],
+  "version": "0.2.0",
+  "description": "Beautify .vue file, not suport stylus,less,scss",
+  "keywords": ["format", "vue.js", "nodejs", "atom", "package", "beautify"],
   "activationCommands": {
     "atom-workspace": "vue-format:format"
   },
-  "repository": "https://github.com/atom/vue-format",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LeslieYQ/vue-format"
+  },
+  "bugs": {
+    "url": "https://github.com/LeslieYQ/vue-format/issues"
+  },
   "license": "MIT",
+  "author": {
+    "name": "yuqiu",
+    "email": "263352748@qq.com",
+    "url": "https://github.com/LeslieYQ"
+  },
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
